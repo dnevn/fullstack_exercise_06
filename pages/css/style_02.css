@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+section {
+  background: transparent;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px 30px;
+}
+
+th {
+  background-color: #333333;
+  font-size: larger;
+  color: #fcfcfc;
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+td {
+  font-size: larger;
+  border: 1px solid #ccc;
+}
+td::first-letter {
+  text-transform: capitalize;
+}
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tbody > tr:hover {
+  background-color: aquamarine;
+}
