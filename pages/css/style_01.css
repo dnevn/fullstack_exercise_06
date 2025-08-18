@@ -54,4 +54,6 @@ td:last-child {
 
 tr:hover {
   background-color: aquamarine;
+  transform: translateY(-1px);
+  cursor: pointer;
 }
