@@ -27,6 +27,7 @@ h1 {
 
 p::first-letter {
     text-transform: capitalize;
+    font-weight: bold;
     font-size: xx-large;
     color: brown;
 }
